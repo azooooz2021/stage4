@@ -8,6 +8,11 @@ check_status() {
     fi
 }
 
+
+# enter enbiroment
+
+source /SDA/venv/bin/activate
+
 # Run ChromaDB
 echo "Starting ChromaDB..."
 chroma run --path /SDA/stage4/ChromaDB &
